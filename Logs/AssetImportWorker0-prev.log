@@ -1,0 +1,2624 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7998 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHUB\6000.0.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Driving3D/Driving3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61844
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Driving3D/Driving3D
+D:/Driving3D/Driving3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15600]  Target information:
+
+Player connection [15600]  * "[IP] 10.2.115.66 [Port] 0 [Flags] 2 [Guid] 2177215264 [EditorId] 2177215264 [Version] 1048832 [Id] WindowsEditor(7,LaptopAndrea) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 96.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.27f1 (27c554a2199c)
+[Subsystems] Discovering subsystems at path D:/UnityHUB/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Driving3D/Driving3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   NVIDIA
+    VRAM:     1984 MB
+    Driver:   26.21.14.4223
+Initialize mono
+Mono path[0] = 'D:/UnityHUB/6000.0.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHUB/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHUB/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHUB/6000.0.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityHUB/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005336 seconds.
+- Loaded All Assemblies, in  1.704 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 2567ms
+	BeginReloadAssembly (922ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (920ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (521ms)
+			TypeCache.Refresh (518ms)
+				TypeCache.ScanAssembly (488ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (864ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.566 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.517 seconds
+Domain Reload Profiling: 8083ms
+	BeginReloadAssembly (3672ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1676ms)
+		LoadAssemblies (1140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (895ms)
+			TypeCache.Refresh (719ms)
+				TypeCache.ScanAssembly (624ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (1258ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3415 unused Assets / (1.2 MB). Loaded Objects now: 4002.
+Memory consumption went from 109.0 MB to 107.8 MB.
+Total: 25.050700 ms (FindLiveObjects: 1.453300 ms CreateObjectMapping: 1.279500 ms MarkObjects: 18.256200 ms  DeleteObjects: 4.050900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 926851.440051 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3b6820c8eddcf4b479fa19ea28cbb490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3b6820c8eddcf4b479fa19ea28cbb490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adc3ffff13c99ca31cd6e4994f10f1ba') in 0.0479411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3408 unused Assets / (1.2 MB). Loaded Objects now: 4005.
+Memory consumption went from 105.4 MB to 104.2 MB.
+Total: 20.490200 ms (FindLiveObjects: 0.913400 ms CreateObjectMapping: 3.251800 ms MarkObjects: 13.743100 ms  DeleteObjects: 2.579800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.429487 seconds.
+  path: Assets/Scripts/GarbageCollector.cs
+  artifactKey: Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarbageCollector.cs using Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb8c66f9a334278d7537b05f15dc34b5') in 0.0079813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.684 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 86.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.113 seconds
+Domain Reload Profiling: 6799ms
+	BeginReloadAssembly (586ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1885ms)
+		LoadAssemblies (1442ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (858ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (803ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (4115ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2914ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (2423ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3414 unused Assets / (1.1 MB). Loaded Objects now: 4005.
+Memory consumption went from 106.8 MB to 105.7 MB.
+Total: 39.619400 ms (FindLiveObjects: 2.215400 ms CreateObjectMapping: 1.720500 ms MarkObjects: 30.559900 ms  DeleteObjects: 5.118300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 284.393899 seconds.
+  path: Assets/Scripts/GarbageCollector.cs
+  artifactKey: Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarbageCollector.cs using Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e61be8b19524b4f86fe35070c01b7ed') in 1.1840204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.210043 seconds.
+  path: Assets/Scripts/GarbageControllers.cs
+  artifactKey: Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarbageControllers.cs using Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0147436 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/garbagecontrollers.cs in SourceAssetDB has modification time of '2024-11-28T12:24:08.7763071Z' while content on disk has modification time of '2024-11-28T12:29:28.9043129Z'
+  ERROR: Build asset version error: assets/scripts/garbagecontrollers.cs in SourceAssetDB has modification time of '2024-11-28T12:24:08.7763071Z' while content on disk has modification time of '2024-11-28T12:29:28.9043129Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.257246 seconds.
+  path: Assets/Scripts/GarbageControllers.cs
+  artifactKey: Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarbageControllers.cs using Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0294613 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/garbagecontrollers.cs in SourceAssetDB has modification time of '2024-11-28T12:24:08.7763071Z' while content on disk has modification time of '2024-11-28T12:29:28.9043129Z'
+  ERROR: Build asset version error: assets/scripts/garbagecontrollers.cs in SourceAssetDB has modification time of '2024-11-28T12:24:08.7763071Z' while content on disk has modification time of '2024-11-28T12:29:28.9043129Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.041 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 28.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.972 seconds
+Domain Reload Profiling: 9018ms
+	BeginReloadAssembly (2489ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (137ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (8ms)
+		CreateAndSetChildDomain (1185ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (4332ms)
+		LoadAssemblies (4165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (772ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (651ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (1188ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3414 unused Assets / (0.8 MB). Loaded Objects now: 4005.
+Memory consumption went from 106.8 MB to 106.0 MB.
+Total: 95.154600 ms (FindLiveObjects: 0.603500 ms CreateObjectMapping: 0.668000 ms MarkObjects: 91.527200 ms  DeleteObjects: 2.353300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.600838 seconds.
+  path: Assets/Scripts/GarbageControllers.cs
+  artifactKey: Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GarbageControllers.cs using Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e38ce9d3d981bbe0b3b1a7d37e2d5f00') in 0.0108861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.283 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.315 seconds
+Domain Reload Profiling: 4610ms
+	BeginReloadAssembly (510ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1594ms)
+		LoadAssemblies (1207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (701ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (648ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (1238ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3414 unused Assets / (1.1 MB). Loaded Objects now: 4005.
+Memory consumption went from 106.8 MB to 105.7 MB.
+Total: 14.669400 ms (FindLiveObjects: 0.718600 ms CreateObjectMapping: 1.075300 ms MarkObjects: 10.585100 ms  DeleteObjects: 2.286900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.142809 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(0d5a968ada99a8941a8beb17c007c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(0d5a968ada99a8941a8beb17c007c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c730d5a4936eff25228b1c9fbf96006b') in 0.010303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3409 unused Assets / (1.1 MB). Loaded Objects now: 4006.
+Memory consumption went from 107.0 MB to 105.9 MB.
+Total: 16.791200 ms (FindLiveObjects: 0.693000 ms CreateObjectMapping: 0.878600 ms MarkObjects: 13.008800 ms  DeleteObjects: 2.207500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 52.041617 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2764ae4970f22531d0ab2fe2f23960b') in 0.0039569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.093 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.077 seconds
+Domain Reload Profiling: 4175ms
+	BeginReloadAssembly (469ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1415ms)
+		LoadAssemblies (1070ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (645ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (586ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (1125ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3415 unused Assets / (1.0 MB). Loaded Objects now: 4006.
+Memory consumption went from 106.8 MB to 105.8 MB.
+Total: 12.275100 ms (FindLiveObjects: 0.652100 ms CreateObjectMapping: 0.776400 ms MarkObjects: 8.590100 ms  DeleteObjects: 2.254500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.456273 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd93ab0708fb1197870307fbbff8f0c4') in 0.0053898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.451 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.869 seconds
+Domain Reload Profiling: 3323ms
+	BeginReloadAssembly (517ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (764ms)
+		LoadAssemblies (597ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (418ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (388ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1242ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (978ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3415 unused Assets / (1.0 MB). Loaded Objects now: 4006.
+Memory consumption went from 106.8 MB to 105.8 MB.
+Total: 16.690400 ms (FindLiveObjects: 0.805200 ms CreateObjectMapping: 0.921600 ms MarkObjects: 12.416700 ms  DeleteObjects: 2.544800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 76.065224 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53320ff1b61fbf45b83a04ee45af58ee') in 0.0121773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 455.834125 seconds.
+  path: Assets/Scenes/Prototype 1.unity
+  artifactKey: Guid(84729eeda748340d0955715b6a50b370) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Prototype 1.unity using Guid(84729eeda748340d0955715b6a50b370) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '100d7a9bdbe74d4d7321190b53d268fb') in 0.7298833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Course Library/_Source_Files/Misc/MountainSkybox.fbx
+  artifactKey: Guid(2d340581e3fa79c48b1401265c761387) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Misc/MountainSkybox.fbx using Guid(2d340581e3fa79c48b1401265c761387) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1285b0024dd175ec2548ecb37c2a369') in 1.0486051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/Military_Green.mat
+  artifactKey: Guid(7bc72f97a09670a4f9b072e70f88f4cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/Military_Green.mat using Guid(7bc72f97a09670a4f9b072e70f88f4cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4c9e325be41aab9c245bf4ef1f13f53') in 0.3930138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/Vehicles/Veh_Armor_Car_01.prefab
+  artifactKey: Guid(aea2a6cdcc9d7944090d528486ebaee1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Vehicles/Veh_Armor_Car_01.prefab using Guid(aea2a6cdcc9d7944090d528486ebaee1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8868656a48546097dcd07fe083ad0b7e') in 0.234045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx
+  artifactKey: Guid(6a1c3c31ad20ee24c837e6aad1e22d80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx using Guid(6a1c3c31ad20ee24c837e6aad1e22d80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1e6151b4ce7ada62e9f635002f55c77') in 0.1734197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SK_Veh_Armor_Car_01.fbx
+  artifactKey: Guid(93b9de2c4710d6b4e9ac38987a064d42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/SK_Veh_Armor_Car_01.fbx using Guid(93b9de2c4710d6b4e9ac38987a064d42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680b0e462de68e3d7b9ff7c4b8084c21') in 0.0854715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/road_straight_mesh.fbx
+  artifactKey: Guid(9054c70a5c9ed454f8ef48a11963db28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/road_straight_mesh.fbx using Guid(9054c70a5c9ed454f8ef48a11963db28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a1bf6a97695b1182e77b83d27d740a4') in 0.0801965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/ST_Veh_Bus_Blue_Z.fbx
+  artifactKey: Guid(7799a29fdee308341b16b65d8a002357) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/ST_Veh_Bus_Blue_Z.fbx using Guid(7799a29fdee308341b16b65d8a002357) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cee593774b0017341bac5fc141acb8e8') in 0.1254746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx
+  artifactKey: Guid(bc0208005b6890d44994050c677eb13f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx using Guid(bc0208005b6890d44994050c677eb13f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a145fcb8802c97d4bb756f464e54e97') in 0.1098404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Course Library/_Source_Files/Misc/SkyDome.fbx
+  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Misc/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9191b0d21e545d29d0d490a575ad7163') in 0.0715184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/GarbageControllers.cs
+  artifactKey: Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/GarbageControllers.cs using Guid(335c45d50729e034f8b18a9648ed2d1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee88c7c0c864dc49403c001c632ea895') in 0.0279845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx
+  artifactKey: Guid(3bf1797a1e906ed419074e5bd4b7ff3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx using Guid(3bf1797a1e906ed419074e5bd4b7ff3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db3c895ec5eba8d17b1bb73c1622986e') in 0.0510034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/Road.mat
+  artifactKey: Guid(aaee9edfd91ad584982e7126ed73c97d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/Road.mat using Guid(aaee9edfd91ad584982e7126ed73c97d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acb7a5db494f72260221d0c3094fad7d') in 0.0775361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/road-tiled.png
+  artifactKey: Guid(d41b87a3f40e2ef459de5656fcaf00e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/road-tiled.png using Guid(d41b87a3f40e2ef459de5656fcaf00e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af11fd01f9cd875fb580dfc19200bba2') in 0.2123218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/Signs_00.png
+  artifactKey: Guid(c050c2762aa6b874bac5c0b0c224bc9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/Signs_00.png using Guid(c050c2762aa6b874bac5c0b0c224bc9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe8c5688c713e7a31634cb9ff56a2af1') in 0.0501826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Course Library/Obstacles/Prop_Spool_02.prefab
+  artifactKey: Guid(3daef342e8f3f9548b04424eac7d4d0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Obstacles/Prop_Spool_02.prefab using Guid(3daef342e8f3f9548b04424eac7d4d0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '980caf20149ab7e9840f2bfba2dcfa29') in 0.1131183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Course Library/Sky/MountainSkybox.prefab
+  artifactKey: Guid(5f0963a629b97442587b7f3ece766e42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Sky/MountainSkybox.prefab using Guid(5f0963a629b97442587b7f3ece766e42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce0af1ff39306d534a58c2bbb319e0df') in 0.0434171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleSky.png
+  artifactKey: Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleSky.png using Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ea42240e0cfebeb7f2d2d484ef19f8b') in 0.0685385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat
+  artifactKey: Guid(16907a240f508cc46bb9ee1d37bc94ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat using Guid(16907a240f508cc46bb9ee1d37bc94ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bb374a6f0f16c95f82552c9ae013d05') in 0.025708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Course Library/Ground/Ground_Road.prefab
+  artifactKey: Guid(e7db4011ca7f11c408c1ad18b34ed04d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Ground/Ground_Road.prefab using Guid(e7db4011ca7f11c408c1ad18b34ed04d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6523c33bdd231e2fbcbea1d3b85cccc5') in 0.0757164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/Obstacles/Barrel_02.prefab
+  artifactKey: Guid(cb04eea70ee14ab49b68d12e2cbbf680) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Obstacles/Barrel_02.prefab using Guid(cb04eea70ee14ab49b68d12e2cbbf680) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14e18ce4622dbbb5a3ffcb526b369ab3') in 0.0690105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/GameManager.cs using Guid(d2c8166766bc214428d9f7c70c0b3fe6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e779b9cedd6ac1a1365388cc93039a1d') in 0.0537097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleTown.png
+  artifactKey: Guid(6495ebfa6e1229c4581a3963c2c50f9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleTown.png using Guid(6495ebfa6e1229c4581a3963c2c50f9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7818870dccf8b3487b163727a634bbf6') in 0.1091099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleTown.mat
+  artifactKey: Guid(7cce38ba40b7d05439de10ddde5afaf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleTown.mat using Guid(7cce38ba40b7d05439de10ddde5afaf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22f848e9c4069e6409578b9ca35e55bd') in 0.0925518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/Textures_Props.png
+  artifactKey: Guid(ac660800cea938a42ae8f2c5ea24539e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/Textures_Props.png using Guid(ac660800cea938a42ae8f2c5ea24539e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68463f73fbd475c2099eaa73e66998b0') in 0.0954408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/ST_Veh_Van_Green_Z.fbx
+  artifactKey: Guid(576da546347c040428bb0204a37e73d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/ST_Veh_Van_Green_Z.fbx using Guid(576da546347c040428bb0204a37e73d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91852d39de201a26f0f03d4188208c0e') in 0.0953211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/Vehicles/Veh_Bus_Blue_Z.prefab
+  artifactKey: Guid(da59e5a3713884d4f9e9667c2befa1a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Vehicles/Veh_Bus_Blue_Z.prefab using Guid(da59e5a3713884d4f9e9667c2befa1a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2564da25a4bb662260696e64fae1dde4') in 0.0822456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx
+  artifactKey: Guid(78056cefff7010745ae502ceee2d13e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx using Guid(78056cefff7010745ae502ceee2d13e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5be6633796db6421ea37165baf05e8db') in 0.1988319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat
+  artifactKey: Guid(af9d3101091f90d4db78a2097d5dcb84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat using Guid(af9d3101091f90d4db78a2097d5dcb84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74f681b762b015e6bafaa36dd193afd5') in 0.0540538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c07a82ee2ba1c1e70610b6880ffc6942') in 0.0650075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/PolygonNature_MountainSkybox_Snow.mat
+  artifactKey: Guid(fb87686c53fbcc24a867e24f6b622498) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/PolygonNature_MountainSkybox_Snow.mat using Guid(fb87686c53fbcc24a867e24f6b622498) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a012f58294baa5a2e7a4fd054f1e9176') in 0.0847674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Course Library/Sky/SkyDome.prefab
+  artifactKey: Guid(51a084e4035b24e76997744a50c711d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Sky/SkyDome.prefab using Guid(51a084e4035b24e76997744a50c711d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8986ecd571e5107b147599f37548759c') in 0.0993241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx
+  artifactKey: Guid(0398a1d1d554d19429b04a7c7413037a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx using Guid(0398a1d1d554d19429b04a7c7413037a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c841f6dad2b6d2561258d0fbdcb476cb') in 0.0374344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(0d5a968ada99a8941a8beb17c007c5a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerController.cs using Guid(0d5a968ada99a8941a8beb17c007c5a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '578a1a6a5984d27dccae7281f18d17b8') in 0.0323787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Course Library/Vehicles/Veh_Car_Blue_Z.prefab
+  artifactKey: Guid(09082afec7b5e824ca611a0cc3264bcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Vehicles/Veh_Car_Blue_Z.prefab using Guid(09082afec7b5e824ca611a0cc3264bcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27ff8a4a30dbb46c200a1c5c0b212579') in 0.1328874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Course Library/Vehicles/Veh_Van_Green_Z.prefab
+  artifactKey: Guid(68840c673a0b18e41a044ed077548d55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Vehicles/Veh_Van_Green_Z.prefab using Guid(68840c673a0b18e41a044ed077548d55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e65cdadcad2023c95af3b7c363527e06') in 0.1077076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/ST_Veh_Ute_Red_Z.fbx
+  artifactKey: Guid(a7dca03bf1b6f9b46b6916fa5450f775) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/ST_Veh_Ute_Red_Z.fbx using Guid(a7dca03bf1b6f9b46b6916fa5450f775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd97fc8ad3cd2eaf64216eef2b0decbd8') in 0.1225182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Course Library/_Source_Files/_LICENSE.txt
+  artifactKey: Guid(0310a912c63a84902ab614f875fc4f7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/_LICENSE.txt using Guid(0310a912c63a84902ab614f875fc4f7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec7d031055b259a911416523a25a713b') in 0.0711299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Course Library/Obstacles/SM_Rock_Boulder_01.prefab
+  artifactKey: Guid(cdcb19fde9e8cba40b7bff849baf2c1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Obstacles/SM_Rock_Boulder_01.prefab using Guid(cdcb19fde9e8cba40b7bff849baf2c1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ec5634793b2a891da7af79a90a2fa08') in 0.0951456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat
+  artifactKey: Guid(b72e16591230315448c77c827b522ae1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat using Guid(b72e16591230315448c77c827b522ae1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34ec67ce193d0e13ca27e79f50b4295f') in 0.0488536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Course Library/Obstacles/Crate_01.prefab
+  artifactKey: Guid(71782582b9d2cac4cba5251a3b767d13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Obstacles/Crate_01.prefab using Guid(71782582b9d2cac4cba5251a3b767d13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ffd9e604d743b73042211f15992285d') in 0.0973996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Course Library/Vehicles/Veh_Ute_Red_Z.prefab
+  artifactKey: Guid(70bf34f6c25c948458f254e87188b00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Vehicles/Veh_Ute_Red_Z.prefab using Guid(70bf34f6c25c948458f254e87188b00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bd2ed517a09988fa1722ccde810b3b8') in 0.1010896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f31502bc0c43a624d3195e63c86020e4') in 0.0363453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png
+  artifactKey: Guid(2edd58f7c433e934db9029c375173b44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png using Guid(2edd58f7c433e934db9029c375173b44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8949d9184c91464ad652cae524ad8ca') in 0.1037934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/Tex_Military_Green.png
+  artifactKey: Guid(91d8e129fe518b34281eef0689092f0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/Tex_Military_Green.png using Guid(91d8e129fe518b34281eef0689092f0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38ee55ca954b59735e42435f6d4bcffa') in 0.0531817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Course Library/_Source_Files/Nuevos3D/FullRaceTrack.3ds
+  artifactKey: Guid(228860b6f04a611459db8a6ff9c3e326) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Nuevos3D/FullRaceTrack.3ds using Guid(228860b6f04a611459db8a6ff9c3e326) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6618876e9b08d9dbdca1e735d0f6b3ad') in 0.1704047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Course Library/Obstacles/Prop_Barrier02.prefab
+  artifactKey: Guid(367149bd17c4d4d4e8868ec6a5cf8d45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Obstacles/Prop_Barrier02.prefab using Guid(367149bd17c4d4d4e8868ec6a5cf8d45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff83ab33ccbbcec2147c6f7b6262d5e2') in 0.0888731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx
+  artifactKey: Guid(5bb9a811cdd73fa42975794b4c22350f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx using Guid(5bb9a811cdd73fa42975794b4c22350f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f088938741dd0363dff837c748a1bd35') in 0.0797562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/Skybox_Diff.png
+  artifactKey: Guid(1202e6a7c7a1de2499a2c339a4382c9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/Textures/Skybox_Diff.png using Guid(1202e6a7c7a1de2499a2c339a4382c9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99518451ab13338f64c699204b01253b') in 0.0657828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Scripts/Camera.cs
+  artifactKey: Guid(f7569f54d27700841b4d8f0e6033b5bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Camera.cs using Guid(f7569f54d27700841b4d8f0e6033b5bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd699da99f94de7a8f6929296cbc39cf') in 0.0359687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/ST_Veh_Car_Blue_Z.fbx
+  artifactKey: Guid(6df34ee591500634282ce8431bcb6976) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/ST_Veh_Car_Blue_Z.fbx using Guid(6df34ee591500634282ce8431bcb6976) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eef54a6d7570afdaafdb73803ab462a7') in 0.0834311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Course Library/Obstacles/Prop_Cone_01.prefab
+  artifactKey: Guid(46f9eda5f45584fb3ad05abcd7af6df2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/Obstacles/Prop_Cone_01.prefab using Guid(46f9eda5f45584fb3ad05abcd7af6df2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56ede37773ea16d67e61fd359edaee1a') in 0.1163271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/Triangular_Prism.obj
+  artifactKey: Guid(0a29e5b800b3746428b5645480341512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Course Library/_Source_Files/FBX/Triangular_Prism.obj using Guid(0a29e5b800b3746428b5645480341512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed1024fd70ae448c2fed3c63f80960ad') in 0.0823674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 47.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3410 unused Assets / (1.0 MB). Loaded Objects now: 4008.
+Memory consumption went from 107.8 MB to 106.8 MB.
+Total: 118.298200 ms (FindLiveObjects: 1.601500 ms CreateObjectMapping: 1.646600 ms MarkObjects: 110.071100 ms  DeleteObjects: 4.973300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 585.191209 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(1056887e98bc75a4eb1f6ecc620fb274) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(1056887e98bc75a4eb1f6ecc620fb274) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1bdd5751b67be6be500785b5161a25b') in 0.2085331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012190 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(1056887e98bc75a4eb1f6ecc620fb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(1056887e98bc75a4eb1f6ecc620fb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c6659efa665f0705a144127833cd495') in 0.0021446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.828 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.019 seconds
+Domain Reload Profiling: 4851ms
+	BeginReloadAssembly (841ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (353ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (1812ms)
+		LoadAssemblies (1678ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (454ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (1082ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3416 unused Assets / (1.1 MB). Loaded Objects now: 4008.
+Memory consumption went from 107.3 MB to 106.2 MB.
+Total: 12.855700 ms (FindLiveObjects: 0.587600 ms CreateObjectMapping: 0.627300 ms MarkObjects: 8.531000 ms  DeleteObjects: 3.106600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.249440 seconds.
+  path: Assets/Scripts/SpawnManager.cs
+  artifactKey: Guid(1056887e98bc75a4eb1f6ecc620fb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnManager.cs using Guid(1056887e98bc75a4eb1f6ecc620fb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa2d1ff1bb820a85614fa8a54975e198') in 0.0054252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.017 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 12.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.950 seconds
+Domain Reload Profiling: 3970ms
+	BeginReloadAssembly (549ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1314ms)
+		LoadAssemblies (1228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (452ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (414ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1951ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1121ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (908ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3416 unused Assets / (1.0 MB). Loaded Objects now: 4008.
+Memory consumption went from 107.3 MB to 106.3 MB.
+Total: 21.731800 ms (FindLiveObjects: 1.128000 ms CreateObjectMapping: 1.229700 ms MarkObjects: 16.093700 ms  DeleteObjects: 3.274500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 545.081547 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949ba69a63177eef8b118afd44eeee81') in 0.1791718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3412 unused Assets / (0.9 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.6 MB to 106.7 MB.
+Total: 195.842500 ms (FindLiveObjects: 3.378300 ms CreateObjectMapping: 2.541000 ms MarkObjects: 185.952100 ms  DeleteObjects: 3.965000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 122.383725 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '566520236798572d40c851dd6941d979') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.999 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.699 seconds
+Domain Reload Profiling: 4703ms
+	BeginReloadAssembly (829ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (199ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1995ms)
+		LoadAssemblies (1934ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (490ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (443ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1700ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1127ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (919ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (0.9 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.5 MB.
+Total: 12.261400 ms (FindLiveObjects: 0.683400 ms CreateObjectMapping: 1.017900 ms MarkObjects: 8.226400 ms  DeleteObjects: 2.330700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.966611 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.006928 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032866 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007821 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025071 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009513 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025168 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006588 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024808 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008516 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024085 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006227 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026780 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007207 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025701 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011112 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024885 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007156 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025462 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008029 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026295 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008395 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027090 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012851 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025958 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008751 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027917 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011468 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026030 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014037 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033270 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012373 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031134 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001017 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032150 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000959 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034970 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0021741 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033105 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009246 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032506 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009065 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035119 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010122 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035083 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010402 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032598 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008899 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040501 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009866 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036790 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010081 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037131 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0023414 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041303 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010889 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035622 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010833 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036349 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009451 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034825 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010407 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039463 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014361 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039384 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013729 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046256 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014105 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039652 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00134 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039993 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009065 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037600 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0027386 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037472 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001023 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036061 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012498 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035378 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010693 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034216 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034665 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008806 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045892 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010865 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051828 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012585 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047401 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012075 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050034 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00134 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049955 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011518 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051607 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015231 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046724 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0019709 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044768 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011316 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050811 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012827 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044375 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010492 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046072 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014131 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048304 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011555 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056408 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012171 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047068 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014395 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049284 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018328 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045795 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.002263 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051645 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001061 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043875 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014014 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045563 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015651 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047830 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0036607 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049595 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010944 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046699 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014983 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045747 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014132 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071617 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010803 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045395 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010865 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040542 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011505 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043529 seconds.
+  path: Assets/Scripts/VirtualCamera.cs
+  artifactKey: Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VirtualCamera.cs using Guid(dff44550c6023cf4c8fe7901a02781e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011544 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+  ERROR: Build asset version error: assets/scripts/virtualcamera.cs in SourceAssetDB has modification time of '2024-11-28T13:02:46.1164044Z' while content on disk has modification time of '2024-11-28T13:02:58.6410357Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.425 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.650 seconds
+Domain Reload Profiling: 3078ms
+	BeginReloadAssembly (441ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (799ms)
+		LoadAssemblies (688ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (386ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (345ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1651ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1004ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (827ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.1 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.3 MB.
+Total: 12.949500 ms (FindLiveObjects: 0.724200 ms CreateObjectMapping: 0.770400 ms MarkObjects: 9.532200 ms  DeleteObjects: 1.904200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.516 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.794 seconds
+Domain Reload Profiling: 3312ms
+	BeginReloadAssembly (539ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (801ms)
+		LoadAssemblies (804ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (366ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1795ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (945ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.2 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.2 MB.
+Total: 17.656100 ms (FindLiveObjects: 0.842300 ms CreateObjectMapping: 1.435100 ms MarkObjects: 11.856100 ms  DeleteObjects: 3.519100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.473 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.455 seconds
+Domain Reload Profiling: 3931ms
+	BeginReloadAssembly (421ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (768ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (388ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (360ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1623ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (1385ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.1 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.3 MB.
+Total: 16.751700 ms (FindLiveObjects: 0.952600 ms CreateObjectMapping: 0.950300 ms MarkObjects: 12.567900 ms  DeleteObjects: 2.277500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.468 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.235 seconds
+Domain Reload Profiling: 3707ms
+	BeginReloadAssembly (532ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (771ms)
+		LoadAssemblies (718ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (393ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (365ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (1204ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.2 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.3 MB.
+Total: 16.024300 ms (FindLiveObjects: 1.392900 ms CreateObjectMapping: 1.072200 ms MarkObjects: 10.535500 ms  DeleteObjects: 3.019200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 618.384736 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f6e8afc4dfb593f7ffbc9292bd5c7de') in 0.2258269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.856 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.962 seconds
+Domain Reload Profiling: 3821ms
+	BeginReloadAssembly (541ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (171ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1130ms)
+		LoadAssemblies (1034ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (320ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1964ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1079ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (830ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3418 unused Assets / (0.8 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.6 MB.
+Total: 11.801500 ms (FindLiveObjects: 0.808300 ms CreateObjectMapping: 0.844100 ms MarkObjects: 8.480400 ms  DeleteObjects: 1.665800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.248 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.066 seconds
+Domain Reload Profiling: 3318ms
+	BeginReloadAssembly (429ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (669ms)
+		LoadAssemblies (620ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (294ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2067ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (1127ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.5 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 105.9 MB.
+Total: 15.641200 ms (FindLiveObjects: 0.885700 ms CreateObjectMapping: 1.330100 ms MarkObjects: 9.869900 ms  DeleteObjects: 3.553300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.165 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.986 seconds
+Domain Reload Profiling: 3155ms
+	BeginReloadAssembly (403ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (595ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (279ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (1086ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.2 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.3 MB.
+Total: 13.983600 ms (FindLiveObjects: 0.722400 ms CreateObjectMapping: 1.380700 ms MarkObjects: 9.581000 ms  DeleteObjects: 2.297800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.725 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.400 seconds
+Domain Reload Profiling: 4129ms
+	BeginReloadAssembly (451ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1097ms)
+		LoadAssemblies (965ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (423ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (381ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2401ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (1325ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.3 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.1 MB.
+Total: 18.111600 ms (FindLiveObjects: 0.957200 ms CreateObjectMapping: 0.903100 ms MarkObjects: 12.093100 ms  DeleteObjects: 4.155500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.258 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.121 seconds
+Domain Reload Profiling: 3382ms
+	BeginReloadAssembly (407ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (697ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (301ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2122ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (1110ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.2 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.2 MB.
+Total: 14.511100 ms (FindLiveObjects: 1.011900 ms CreateObjectMapping: 0.735500 ms MarkObjects: 10.444300 ms  DeleteObjects: 2.317200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.433 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.940 seconds
+Domain Reload Profiling: 3377ms
+	BeginReloadAssembly (418ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (852ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (448ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (406ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (1057ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.3 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.2 MB.
+Total: 14.453600 ms (FindLiveObjects: 0.682500 ms CreateObjectMapping: 0.913900 ms MarkObjects: 10.539800 ms  DeleteObjects: 2.315200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.360 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.139 seconds
+Domain Reload Profiling: 3502ms
+	BeginReloadAssembly (459ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (315ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2140ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (1170ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.1 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.3 MB.
+Total: 19.938500 ms (FindLiveObjects: 0.719500 ms CreateObjectMapping: 1.954400 ms MarkObjects: 14.354100 ms  DeleteObjects: 2.907700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.264 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.180 seconds
+Domain Reload Profiling: 3448ms
+	BeginReloadAssembly (420ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (685ms)
+		LoadAssemblies (611ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (321ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (1140ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (0.9 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.5 MB.
+Total: 15.771700 ms (FindLiveObjects: 0.741200 ms CreateObjectMapping: 0.874200 ms MarkObjects: 11.612600 ms  DeleteObjects: 2.540500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.313 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.940 seconds
+Domain Reload Profiling: 3256ms
+	BeginReloadAssembly (423ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (720ms)
+		LoadAssemblies (645ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (314ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1942ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (1095ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3417 unused Assets / (1.1 MB). Loaded Objects now: 4010.
+Memory consumption went from 107.4 MB to 106.3 MB.
+Total: 14.262100 ms (FindLiveObjects: 0.943300 ms CreateObjectMapping: 0.658500 ms MarkObjects: 9.668800 ms  DeleteObjects: 2.989400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
